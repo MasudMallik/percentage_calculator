@@ -1,6 +1,6 @@
 import streamlit as st
 col1,col2,col3=st.columns(3)
-col2.image("percentage\makaut.png",width=300)
+col2.image("makaut.png",width=300)
 st.title("makaut percentage calculator")
 st.subheader("Convert your MAKAUT SGPA to percentage in one click")
 odd_sem=st.number_input("Enter ODD Semester SGPA" ,min_value=0.0,max_value=10.0,step=0.1,)
